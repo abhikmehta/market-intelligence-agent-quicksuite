@@ -96,6 +96,8 @@ The submitted project **Passed (6/6 Rubric Criteria Met)** on **Attempt 2 (Octob
 ├── 11_tco_comparison_chart (1).png
 └── 12_quick_chat_competitive_landscape.png
 
+
+
 ## Reproducing in Amazon QuickSuite
 
 1. Create a Space named `Market Intelligence - EV Fleet Strategy` in **Quick Spaces**.
