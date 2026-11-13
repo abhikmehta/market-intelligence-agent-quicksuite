@@ -221,6 +221,37 @@ To prevent overinterpretation of these findings, leadership must explicitly avoi
 ![Quick Research Sources 1 to 10](screenshots/07_quick_research_sources.png)
 ![Quick Research Sources 10 to 20](screenshots/08_quick_research_sources_10_to_20.png)
 
+---
+
+## Appendix: Executive Decision Summary & Signal Governance
+
+### 1. One-Page Decision Dashboard
+| Insight Area | Key Signal / Metric | Confidence | Primary Risk | Recommended Action |
+|---|---|---|---|---|
+| **Insight 1** | *[Key figure from Insight 1]* | High / Medium | *[Primary risk]* | *[Recommended action]* |
+| **Insight 2** | *[Key figure from Insight 2]* | High / Medium | *[Primary risk]* | *[Recommended action]* |
+| **Insight 3** | *[Key figure from Insight 3]* | High / Medium | *[Primary risk]* | *[Recommended action]* |
+| **Insight 4** | *[Key figure from Insight 4]* | High / Medium | *[Primary risk]* | *[Recommended action]* |
+
+### 2. Signal Freshness & "What Would Change Our Mind?"
+* **Signal Freshness:** Internal dataset (`Electric_Vehicle_Population_Data.csv`) and external Quick Research signals were captured in **October 2026** and remain valid for Q4 2026 strategic planning.
+* **Falsification Triggers (What Would Change Our Mind?):**
+  * *Trigger 1:* A >15% shift in regional EV adoption rates or policy/incentive changes in the next quarterly dataset refresh.
+  * *Trigger 2:* New competitor pricing or supply-chain announcements contradicting the external Quick Research signals cited above.
+
+### 3. Impact vs. Effort Action Matrix
+| Recommended Action | Business Impact | Implementation Effort | Confidence | Priority |
+|---|---|---|---|---|
+| *[Action 1]* | High | Low | High | **P1 — Immediate** |
+| *[Action 2]* | High | Medium | Medium | **P2 — Next Quarter** |
+| *[Action 3]* | Medium | Low | High | **P2 — Quick Win** |
+
+### 4. Best-Performing Agent Prompts
+1. **Grounding & Baseline:** *"Summarize the top EV makes, model years, and geographic concentration in `Electric_Vehicle_Population_Data.csv`. If a metric is missing, state 'Data not present in knowledge base.'"*
+2. **External Signal Synthesis:** *"Compare internal EV population growth trends against current industry market signals and cite each external source."*
+3. **Reliability Check:** *"List potential data biases, missing segments, and what conclusions leadership should NOT draw from this dataset."*
+
+
 #### 5. Live Multi-Step Agent Conversation, Grounded Insights & Competitive Synthesis (`Quick Chat`)
 ![Quick Chat Live Execution](screenshots/04_quick_chat_live_execution%20(1).png)
 ![Quick Chat Competitive Landscape](screenshots/12_quick_chat_competitive_landscape.png)
