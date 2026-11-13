@@ -79,22 +79,24 @@ The submitted project **Passed (6/6 Rubric Criteria Met)** on **Attempt 2 (Octob
 
 ## Repository Structure
 
- .
-├── Market_Intelligence_Research_Brief.md # Full brief, insights, citations & decision appendix
-├── README.md # Project overview, architecture & evaluation summary
-└── screenshots/ # QuickSuite evidence (config, grounding, research, charts)
-├── 01_agent_configuration.png
-├── 02_quick_index_grounding (1).png
-├── 03_quick_research_outputs (1).png
-├── 04_quick_chat_live_execution (1).png
-├── 05_quick_spaces_organization (1).png
-├── 06_ev_market_share_visual_evidence.png
-├── 07_quick_research_sources.png
-├── 08_quick_research_sources_10_to_20.png
-├── 09_quick_chat_pie_chart_grounding (1).png
-├── 10_quick_chat_scatter_plot.png
-├── 11_tco_comparison_chart (1).png
-└── 12_quick_chat_competitive_landscape.png
+```text
+.
+├── Market_Intelligence_Research_Brief.md   # Full brief, insights, citations & decision appendix
+├── README.md                               # Project overview, architecture & evaluation summary
+└── screenshots/                            # QuickSuite evidence (config, grounding, research, charts)
+    ├── 01_agent_configuration.png
+    ├── 02_quick_index_grounding (1).png
+    ├── 03_quick_research_outputs (1).png
+    ├── 04_quick_chat_live_execution (1).png
+    ├── 05_quick_spaces_organization (1).png
+    ├── 06_ev_market_share_visual_evidence.png
+    ├── 07_quick_research_sources.png
+    ├── 08_quick_research_sources_10_to_20.png
+    ├── 09_quick_chat_pie_chart_grounding (1).png
+    ├── 10_quick_chat_scatter_plot.png
+    ├── 11_tco_comparison_chart (1).png
+    └── 12_quick_chat_competitive_landscape.png
+```
 
 
 
